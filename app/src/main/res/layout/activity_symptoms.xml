@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#EBCC90"
+    tools:context=".Symptoms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sym"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="HIV/AIDS"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sym1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Headaches"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Difficulty swallowing"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Fever"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Night sweats"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Fatigue/weakness"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Chlamydial Infection"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sym7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Symptoms typically occur one to three weeks after exposure."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Women:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Painful or burning sensation when urinating and/or yellow or bloody vaginal discharge"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Abdominal pain"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Bleeding between menstrual periods"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Men:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Penile discharge"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Mild to severe burning sensation when urinating"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Can progress to epididymitis"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Gonorrhea"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sym17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Symptoms typically occur two to ten days after exposure."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Women:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Penile discharge"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Mild to severe burning sensation when urinating"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Can progress to epididymitis"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Men:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Penile discharge"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Mild pain when urinating"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Progression to epididymitis, an inflammation of the tubelike structure that stores and transports sperm"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Rectal Infection:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Anal discharge"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Anal itching"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="•	Painful bowel movements"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Pelvic Inflammatory Disease (PID)"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sym31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Lower abdominal pain"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Abnormal vaginal discharge"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Fever"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Painful intercourse"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="•	Irregular menstrual bleeding"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Genital Warts/Human Papillomavirus (HPV)"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sym37"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Symptoms typically occur three months after exposure."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Women:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="Clusters of tiny warts outside and inside of the vagina, on the cervix or around the anus"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Men:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:layout_marginLeft="20dp"
+                android:text="Clusters of tiny warts on the penis, scrotum or anus"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/sym42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Genital Herpes"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sym43"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Symptoms typically occur two to ten days after exposure. Initial episode, typically lasting two to three weeks:"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Itching or burning sensation in the genitals or anus"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym45"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Pain in the genitals, buttocks, legs"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym46"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Vaginal discharge"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym47"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Feeling of pressure in the abdomen"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym48"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Tiny red bumps involving the vagina, cervix, penis and/or anal area; these turn into blisters and then become painful open sores"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Recurrences, typically lasting about one week:"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Itching or tingling sensation in the genitals, buttocks or legs"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym51"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Small blisters or open sores at the site of infection"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Genital Herpes"
+                android:textColor="#000000"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/sym53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Stage 1: Primary Syphilis"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym54"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Initial symptoms typically occur two to six weeks after exposure and last four to six weeks."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym55"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Painless chancre on the penis, vulva, vagina, cervix or around the mouth"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym56"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Inflamed lymph nodes"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Stage 2: Secondary Syphilis"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym58"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Symptoms typically occur one to six weeks after the chancre heals and last three to six months."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym59"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Light rash with brown sores roughly the size of a penny, typically on the palms of the hands and soles of the feet; may also cover the rest of the body"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym60"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="•	Sores in or around the genitals or anus"
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:text="Stage 3: Tertiary Stage"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/sym62"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Symptoms typically occur anywhere from two years to more than forty years after the onset of infection."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/sym63"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Syphilis in multiple systems, including the heart and blood vessels, skin, bones and brain. "
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

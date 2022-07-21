@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#EBCC90"
+    tools:context=".Benefits">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/benefits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="Benefits of Birth Control"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/periodcalendar_bloglarge"/>
+
+            <TextView
+                android:id="@+id/benefits1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Birth control pills can help even out your period so you know exactly when it’s coming. Traditional birth control pills contain the hormones estrogen and progestin, which are similar to the hormones your ovaries make. You take hormone-containing “active” pills for 3 weeks, followed by 1 week of inactive pills. You get your period the week you take the inactive pills. "
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/benefits2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Newer options let you use the pills to control your period in the way that works best for you and your lifestyle. Some products now have 24 active pills and 4 inactive pills, making your monthly cycle shorter. With these extended-cycle types, you take active pills for a longer amount of time. One option is to take 3 months of active pills before you take a break. This means you’ll only have your period four times a year. You can even plan to avoid your period during busy times like final exams, sports activities, or social events. With newer extended-cycle options, you can take active pills every day for a year and stop your period altogether.
+Another type, known as the minipill, can stop your period or make it lighter. You take this pill every day for 28 days.
+Newer options let you use the pills to control your period in the way that works best for you and your lifestyle. Some products now have 24 active pills and 4 inactive pills, making your monthly cycle shorter. With these extended-cycle types, you take active pills for a longer amount of time. One option is to take 3 months of active pills before you take a break. This means you’ll only have your period four times a year. You can even plan to avoid your period during busy times like final exams, sports activities, or social events. With newer extended-cycle options, you can take active pills every day for a year and stop your period altogether.
+Another type, known as the minipill, can stop your period or make it lighter. You take this pill every day for 28 days."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/benefit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Help With Cramps, PMS, and Anemia"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/period_cramps_iron"/>
+
+            <TextView
+                android:id="@+id/benefits3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Taking birth control pills may lower your risk of heavy menstrual bleeding by preventing ovulation and making the lining of the uterus thinner. A lighter period lowers your risk of iron-deficiency anemia, which results from heavy bleeding. The pill may also ease painful cramps because it prevents ovulation and lightens your period. If you have PMS (premenstrual syndrome) or PMDD (premenstrual dysphoric disorder), birth control pills may ease symptoms like mood swings, breast soreness, weight gain, bloating, and acne by evening out hormone levels during your cycle. Using the pill to balance your hormone levels may also lead to fewer and less severe menstrual-related migraines."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/benefit1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Relieve Endometriosis Symptoms and Prevent Ovarian Cysts"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/benefits4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Endometriosis is a condition in which the lining of the uterus grows outside of it. This can cause painful periods with painful menstrual cramps. Birth control pills don’t cure endometriosis, but they may help you control your pain by stopping your periods.
+The pills may also keep ovarian cysts from coming back."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/benefit3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Clear Up Skin and Prevent Unwanted Hair Growth"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/female_armpit_1200x628_facebook"/>
+
+            <TextView
+                android:id="@+id/benefits5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Birth control pills can improve acne and hair growth in the midline of your body by reducing the levels of male hormones your ovaries make. If you have higher than normal levels of these hormones, or if you’re sensitive to them, you may start to grow hair above your lip, under your chin, between your breasts, between your belly button and pubic bone, or down your inner thigh. You should see less unwanted hair within 6 months."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/benefits6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="The hormones in birth control pills can also help stop acne from forming, but it may take several months to see a difference."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/benefit4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Help With Polycystic Ovarian Syndrome (PCOS)"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/benefits7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Polycystic ovary syndrome (PCOS), a common condition among teen girls and young women, is a hormone imbalance in which the ovaries make extra amounts of testosterone. It can cause irregular periods, unwanted hair growth, and acne. Taking birth control pills can improve these symptoms by balancing your hormones, lowering the level of testosterone, and regulating your period."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/benefit5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Lower Your Risk of Some Cancers"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/benefits8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Taking birth control pills can raise your odds of getting some cancers but lower the chance you’ll get others. Women who have taken birth control have a 30% to 50% lower risk of ovarian cancer than women who have never taken the pill. The longer you take it, the less likely you are to get this type of cancer. The lower risk lasts up to 30 years after you stop taking the pill. Women who have taken birth control pills also have a lower risk of endometrial cancer than those who haven’t. It lowers your odds of getting this type of cancer by at least 30%. The longer you take the pill, the more your risk goes down. This benefit also lasts for many years after you stop taking the pill. Growing evidence also suggests the pill may lower your risk of developing colorectal cancer while you take it."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

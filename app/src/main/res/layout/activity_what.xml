@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#EBCC90"
+    tools:context=".What">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/what"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:paddingTop="15dp"
+                android:text="What is Birth Control"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/birthcontrolmethods"/>
+
+            <TextView
+                android:id="@+id/meaning"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Birth control (contraception) is any method, medicine, or device used to prevent pregnancy. Women can choose from many different types of birth control. Some work better than others at preventing pregnancy. The type of birth control you use depends on your health, your desire to have children now or in the future, and your need to prevent sexually transmitted infections. Your doctor can help you decide which type is best for you right now."
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="220dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/cs_choosing_the_right_birth_control_for_you_722x406"/>
+
+                <TextView
+                    android:id="@+id/meaning1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Birth control is a way for men and women to prevent pregnancy. There are many different methods of birth control."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/meaning2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="By learning more about the options, you can decide which method is right for you and your partner. If you are sexually active and don\'t want a baby, don\'t wait to use birth control. An unintended pregnancy can happen any time you have unprotected sex."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

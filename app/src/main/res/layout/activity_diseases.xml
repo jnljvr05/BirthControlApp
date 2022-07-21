@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#EBCC90"
+    tools:context=".Diseases">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/diseases"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Diseases you can get in early stage of sex"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/download" />
+
+                <TextView
+                    android:id="@+id/diseases1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="AIDS is caused by the human immunodeficiency virus (HIV), which is spread through unprotected sexual intercourse with an infected person or through using a contaminated needle to inject drugs. It can also be spread through intravenous drug use and much less commonly, blood, blood products, needles, or other sharp instruments contaminated with infected body fluids or blood."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diseases12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Chlamydia"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/x" />
+
+                <TextView
+                    android:id="@+id/diseases13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Chlamydia, the most prevalent bacterial STI in the United States, is the result of the Chlamydia trachomatis bacterium, which can infect the urethra (bladder opening) and cervix (uterus opening). It is common in youngsters aged fifteen to nineteen. The disease is easily treated, but like other sexually transmitted infections, chlamydia tends to be silent and therefore go undiagnosed until it becomes more serious than in its early stages. Three in four women and one in two men have no symptoms. In 40 percent of cases, by the time a girl seeks medical attention, the disease has progressed to pelvic inflammatory disease (PID, described below), a major cause of female infertility and pelvic pain."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diseases14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Gonorrhea"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/gonorrhea_diagram" />
+
+
+                <TextView
+                    android:id="@+id/diseases16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Gonorrhea usually begins in the urethra (bladder opening) or the cervix. However, the rapidly proliferating Neisseria gonorrhoea bacterium can migrate to the uterus and the fallopian tubes, giving rise to pelvic inflammatory disease (PID). The infection, like chlamydia, may also involve the rectum."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diseases17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Pelvic Inflammatory Disease (PID)"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/t5ff2c_8af49ae9_73f8_48af_995c_9dcc6af6d41f_ee154f" />
+
+                <TextView
+                    android:id="@+id/diseases18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="A number of different microorganisms can cause pelvic inflammatory disease of the upper female reproductive tract. The two most common culprits are Chlamydia trachomatis and Neisseria gonorrhoea, which account for four in five cases."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diseases19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Sexually active girls aged fifteen to nineteen are the most vulnerable population, partly because they are more likely than other age groups to have multiple sex partners."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/diseases22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Genital Warts and Human Papillomavirus (HPV)"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/hpv_warts_722x406" />
+
+                <TextView
+                    android:id="@+id/diseases23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Scientists have identified more than one hundred types of this virus. A number of them are passed from one person to another during unprotected sex and cause benign genital warts (condylomata acuminata). Other human papillomaviruses are responsible for four in five cases of cervical cancer, in addition to several other genital malignancies."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diseases26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Genital Herpes (HSV-1, HSV-2)"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/herpes_elbow_0413_slideshow_362853" />
+
+                <TextView
+                    android:id="@+id/diseases27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="There are two types of herpes simplex viruses, the highly contagious virus that causes genital herpes. “Herpes simplex 2 usually occurs on or around the vagina, the penis, the anus or on the buttocks and thighs,” says Dr. Fisher, “whereas herpes simplex type 1 generally causes cold sores around the outside of the mouth, or blisters on the gums or in the throat.” However, HSV-1 sometimes infects the genital-anal area, while both types can be transmitted to the mouth via oral sex."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diseases28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Because the virus permanently inhabits sensory nerves at the base of the spinal cord, genital herpes is a chronic, lifelong condition. Most of the time, HSV lies dormant. But it is reactivated periodically and produces sores or vessicles—most notably, clusters of tiny ulcers that resemble cold sores. These outbreaks, which typically last about one week, should be taken as a warning that the disease is contagious. The virus travels up the nerves that lead to the surface of the skin, where it proliferates, giving rise to new sores. (Initial symptoms of genital herpes tend to be more severe and longer-lasting than subsequent episodes.) The disease can be infectious even if no sores or lesions are present."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/diseases30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Syphilis"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/syphilis_symptoms_stages_and_diagnosis_rm_722x406" />
+
+                <TextView
+                    android:id="@+id/diseases31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Until the early 1940s, when the antibiotic penicillin entered into widespread commercial use, epidemics of syphilis had been reported for centuries. Even today the onetime scourge can be fatal if left untreated. The bacterium Treponema pallidum eventually slips into the bloodstream, which sends it to organs outside the reproductive tract."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

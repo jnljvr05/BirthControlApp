@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#EBCC90"
+    tools:context=".Methods">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="85dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/methods"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:text="Methods of Birth Control"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/methods1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="• Barrier methods"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Examples include male and female condoms, as well as the diaphragm, cervical cap and contraceptive sponge."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="•	Short-acting hormonal methods"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Examples include birth control pills, as well as the vaginal ring (NuvaRing), skin patch (Xulane) and contraceptive injection (Depo-Provera). These are considered short-acting methods because you have to remember to use them on a daily, weekly or monthly basis."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="•	Long-acting hormonal methods"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="Examples include the copper IUD (ParaGard), the hormonal IUD (Mirena, Skyla, Kyleena, others) and the contraceptive implant (Nexplanon). These are considered long-acting methods because they last for three to 10 years after insertion — depending on the device — or until you decide to have the device removed."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="•	Sterilization"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="This is a permanent method of birth control. Examples include tubal ligation for women and vasectomy for men."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="•	Spermicide or vaginal gel"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="These are nonhormonal options for birth control. Spermicide is a type of contraceptive that kills sperm or stops it from moving. Vaginal pH regulator gel (Phexxi) stops sperm from moving, so they can't get to an egg to fertilize it. You put these products in the vagina right before sex."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="•	Fertility awareness methods"
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+
+                <TextView
+                    android:id="@+id/methods12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:fontFamily="serif"
+                    android:text="These methods focus on knowing which days of the month you are able to get pregnant (fertile), often based on basal body temperature and cervical mucus. To avoid getting pregnant, you do not have sex on or around the days you are fertile, or you use a barrier method of birth control."
+                    android:textAlignment="gravity"
+                    android:textColor="#000000"
+                    android:textSize="25sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>
